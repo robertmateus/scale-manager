@@ -8,11 +8,15 @@
   "version": "1.0.0",
   "description": "Sistema web para gerenciamento e organização eficiente de escalas de serviço e controle de turnos.",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "dev": "next dev",
+    "lint:prettier:check": "prettier --check .",
+    "lint:prettier:fix": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.7.4"
+  }
 }
