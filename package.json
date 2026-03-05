@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "next": "^13.1.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "name": "scale-manager",
+  "version": "1.0.0",
+  "description": "Sistema web para gerenciamento e organização eficiente de escalas de serviço e controle de turnos.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint:eslint:check": "next lint --dir .",
+    "lint:prettier:check": "prettier --check .",
+    "lint:prettier:fix": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^14.2.4",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.7.4"
+  }
+}
