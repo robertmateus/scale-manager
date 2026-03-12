@@ -10,10 +10,11 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "lint:eslint:check": "next lint --dir .",
     "lint:prettier:check": "prettier --check .",
     "lint:prettier:fix": "prettier --write .",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky",
     "commit": "cz"
   },
@@ -27,7 +28,9 @@
     "eslint": "8.57.0",
     "eslint-config-next": "14.2.5",
     "eslint-config-prettier": "9.1.0",
+    "eslint-plugin-jest": "^28.8.0",
     "husky": "9.1.4",
+    "jest": "29.7.0",
     "prettier": "3.3.3"
   },
   "config": {
