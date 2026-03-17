@@ -7,7 +7,7 @@ function getSSLValues() {
     };
   }
 
-  return process.env.NODE_ENV === "production" ? true : false;
+  return process.env.NODE_ENV === "development" ? true : false;
 }
 
 async function query(queryObject) {
