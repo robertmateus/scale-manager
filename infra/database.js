@@ -7,7 +7,7 @@ function getSSLValues() {
     };
   }
 
-  return process.env.NODE_ENV === "development" ? true : false;
+  return process.env.NODE_ENV === "production" ? true : false;
 }
 
 async function query(queryObject) {
@@ -20,6 +20,7 @@ async function query(queryObject) {
   } catch (error) {
     console.log("DB ERROR:", error);
     throw error;
+    // No seu bloco finally
   } finally {
     if (client) {
       await client.end();
